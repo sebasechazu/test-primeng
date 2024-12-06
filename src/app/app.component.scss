@@ -1,0 +1,15 @@
+.header {
+    background-color: lightgrey;
+    color: black;
+    text-align: center;
+    padding: 1rem;
+    row-gap: 1rem;
+    font-size: 2rem;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    color: #fff;
+}

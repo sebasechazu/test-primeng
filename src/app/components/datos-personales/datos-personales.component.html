@@ -1,0 +1,96 @@
+<div class="container">
+    <h3 style="border-bottom: 1px solid #ccc; padding-bottom: 10px;">Datos Personales</h3>
+    <div class="form-container">
+        <!-- Columna 1 -->
+        <div class="form-column">
+            <div class="p-field">
+                <label for="numeroColegiado">Nº Colegiado</label>
+                <input id="numeroColegiado" type="text" pInputText />
+            </div>
+            <div class="p-field">
+                <label for="apellido1">Apellido 1</label>
+                <input id="apellido1" type="text" pInputText />
+            </div>
+        </div>
+
+        <!-- Columna 2 -->
+        <div class="form-column">
+            <div class="p-field">
+                <label for="nombre">Nombre</label>
+                <input id="nombre" type="text" pInputText />
+            </div>
+            <div class="p-field">
+                <label for="apellido2">Apellido 2</label>
+                <input id="apellido2" type="text" pInputText />
+            </div>
+        </div>
+
+        <!-- Columna 3 -->
+        <div class="form-column profile-column">
+            <div class="profile-picture">
+                <div class="picture-wrapper">
+                    <img src="https://via.placeholder.com/150/0000FF/808080?text=Profile" alt="Profile Picture" />
+                    <span class="edit-icon">✎</span>
+                </div>
+                <p>Profile Picture</p>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Footer de la fila -->
+    <div class="footer-container">
+        <div class="footer-row">
+
+            <div class="p-field">
+                <label for="Municipio">Municipio</label>
+                <p-dropdown optionLabel="Municipio" placeholder="Municipio" />
+            </div>
+
+            <div class="p-field">
+                <label for="Nacionalidad">Nacionalidad</label>
+                <p-dropdown optionLabel="Nacionalidad" placeholder="Nacionalidad" />
+            </div>
+
+            <div class="p-field">
+                <label for="provincia">Provincia</label>
+                <p-dropdown optionLabel="Provincia" placeholder="Provincia" />
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Checkboxes y botones -->
+    <div class="action-container">
+        <div class="">
+            <label>Señale la opción correcta:</label>
+            <br />
+            <br />
+            <div class="checkbox-group">
+                <div>
+                    <p-checkbox />
+                    <label for="colegiacion" style="margin-left: 10px;">1º Colegiación en COAM</label>
+                    
+                </div>
+                <div style="margin-left: 10px;">
+                    <p-checkbox />
+                    <label for="reincorporacion" style="margin-left: 10px;" >Reincorporación al COAM</label>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <br />
+
+    <div class="footer-form">
+        <div style="float: left;">
+            <p-button label="ATRÁS" severity="secondary" />
+        </div>
+        <div style="float: right;">
+            <div class="button-container">
+                <p-button label="CONTINUAR" severity="contrast"></p-button>
+                <p-button label="GUARDAR" severity="contrast"></p-button>
+            </div>
+        </div>
+    </div>
+</div>
